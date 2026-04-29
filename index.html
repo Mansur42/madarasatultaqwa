@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ha">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madarasatul Taqwa Online</title>
+    <style>
+        body {
+            background-color: #f4f7f6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container, .form-container, .upload-container, .contact-container {
+            background-color: #ffffff;
+            max-width: 800px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-top: 8px solid #1b5e20;
+            margin-bottom: 25px;
+            box-sizing: border-box;
+        }
+
+        h1, h2 { color: #1b5e20; text-align: center; margin-top: 10px; }
+        .motto { color: #b8860b; text-align: center; font-weight: bold; font-size: 20px; }
+
+        .fees-box {
+            background-color: #fff9c4;
+            border: 2px dashed #fbc02d;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .fees-amount { font-size: 24px; color: #d32f2f; font-weight: bold; }
+
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; color: #2e7d32; }
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .btn-submit {
+            background-color: #1b5e20;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-submit:hover { background-color: #2e7d32; }
+
+        .contact-link {
+            display: block;
+            background: #e8f5e9;
+            color: #1b5e20;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #c8e6c9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>MADARASATUL TAQWA ONLINE ISLAMIYYA</h1>
+        <p class="motto"><i>Takenmu: Ilimi da Tarbiyya</i></p>
+
+        <div class="fees-box">
+            <p style="margin:0;">Kudin Makaranta (Monthly Fees)</p>
+            <span class="fees-amount">₦1,000</span>
+        </div>
+
+        <h2>GABATARWA</h2>
+        <p>Madarasatul Taqwa Online Islamiyya makaranta ce ta yanar gizo da aka assasa domin yada ilimin addinin Musulunci musamman ga mata.</p>
+    </div>
+
+    <div class="form-container">
+        <h2>REJISTA (REGISTRATION FORM)</h2>
+        <form action="https://formspree.io/f/madarasatutaqwa@gmail.com" method="POST">
+            <div class="form-group">
+                <label>Cikakken Suna:</label>
+                <input type="text" name="Suna" required>
+            </div>
+            <div class="form-group">
+                <label>Lambar WhatsApp:</label>
+                <input type="tel" name="WhatsApp" required>
+            </div>
+            <div class="form-group">
+                <label>Matakin Karatu:</label>
+                <select name="Matakin_Karatu" required>
+                    <option value="">-- Zaɓi Matakin Karatunka --</option>
+                    <option value="Ban San Baki Ba">Ban San Baki Ba</option>
+                    <option value="Na San Baki">Na San Baki</option>
+                    <option value="Ina iya karantawa">Ina iya karantawa</option>
+                    <option value="Na iya kira'a">Na iya kira'a</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-submit">Tura Bayanan Rejista Zuwa Email</button>
+        </form>
+    </div>
+
+    <div class="contact-container">
+        <h2>TUNTUBA DA NEMAN KARIN BAYANI</h2>
+        <p style="text-align: center;">Kuna iya kiranmu ko magana da mu a WhatsApp ta wadannan lambobin:</p>
+        
+        <a href="tel:07063729899" class="contact-link">📞 Kira: 07063729899</a>
+        <a href="https://wa.me/2347063729899" class="contact-link" style="background: #25d366; color: white;">💬 WhatsApp: 07063729899</a>
+        
+        <hr>
+        
+        <a href="tel:08129985272" class="contact-link">📞 Kira: 08129985272</a>
+        <a href="https://wa.me/2348129985272" class="contact-link" style="background: #25d366; color: white;">💬 WhatsApp: 08129985272</a>
+    </div>
+
+</body>
+</html>
